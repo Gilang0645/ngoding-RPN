@@ -2,14 +2,14 @@ function xo(str) {
     let x = 0;
     let o = 0;
 
-    for (i = o; i < str.length; i++) {
+    for (let i = o; i < str.length; i++) {
         if (str[i] === 'x') {
-            x++
-        } else {
-            0++
+            x++;
+        } else if (str[i] === 'o'{
+            o++;
         }
     }
-    return x === 0;
+    return x === o;
 }
 
 console.log(xo('xoxoxo')); //true
